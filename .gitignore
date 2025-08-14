@@ -1,0 +1,27 @@
+
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Python / FastAPI
+_pycache_/
+.venv/
+*.pyc
+
+# Environment files (DO NOT commit secrets)
+.env
+*.env
+
+# Docker
+**/.pytest_cache
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
